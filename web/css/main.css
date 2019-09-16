@@ -1,4 +1,128 @@
 .navbar-brand {
   width: 250px;
+  height: 123px;
+}
+
+.navbar-brand img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.menu-fixed {
+  background-color: rgba(0, 192, 255, 0.39) !important;
+}
+
+.search_your_country {
+  display: none;
+}
+
+.bottom-header {
+  margin-top: 200px;
+  background-color: aqua;
+}
+
+.box-skill {
+  width: 150px;
+  min-height: 250px;
+  background-color: #fff;
+}
+
+.home_menu .main-menu-item {
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+
+.main_menu .main-menu-item ul li .nav-link {
+  color: #1d1d1d;
+  font-size: 20px;
+}
+
+.main-banner {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-banner .content-text {
+  width: 80%;
+  position: relative;
+  z-index: 50;
+}
+
+.main-banner .content-text h1 {
+  font-size: 46px;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 55px;
+  color: #1d1d1d;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 25px;
+}
+
+.main-banner .content-text h5 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1d1d1d;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 34px;
+  display: none;
+}
+
+.main-banner .image-banner {
+  opacity: .8;
+  position: absolute;
+  width: 130%;
+  height: 57%;
+  bottom: -10%;
+  right: 0;
+  z-index: 1;
+}
+
+.main-banner .image-banner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+@media only screen and (min-width: 600px) {
+  .main-banner .content-text {
+    width: 55%;
+  }
+  .main-banner .content-text h1 {
+    font-size: 66px;
+    line-height: 75px;
+  }
+  .main-banner .content-text h5 {
+    display: block;
+    font-size: 36px;
+  }
+  .main-banner .image-banner {
+    width: 50%;
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+.feature_part {
+  background-color: rgba(183, 180, 180, 0.12);
 }
 /*# sourceMappingURL=main.css.map */
